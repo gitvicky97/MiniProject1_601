@@ -77,6 +77,30 @@ Here is a list of some of the basic commands that you'll need to know in order t
     
     All of our services are currently running on Linux. In Linux, there is a very useful command to show you all of the last commands that have been recently used. The command is simply called history, but can also be accessed by looking at your .bash_history in your home folder.
     
+    * **File path in Linux**
     
-    
-    
+    Files and folders on Linux are given names containing the usual components like the letters, numbers, and other characters on a keyboard. But when a file is inside a folder, or a folder is inside another folder, the / character shows the relationship between them. That’s why you often see files listed in the format **/usr/bin/python3 or /etc/os-release.** The forward slashes indicate that one item is stored inside of the item preceding it.
+
+Every file and folder on a POSIX system can be expressed as a path. If I have the file **penguin.jpg** in the **Pictures** folder within my home directory, and my username is **seth**, then the file path can be expressed as **/home/seth/Pictures/penguin.jpg.
+
+Most users interact primarily with their home directory, so the tilde (~) character is used as a shorthand. That fact means that I can express my example penguin picture as either **/home/seth/Pictures/penguin.jpg or as ~/Pictures/penguin.jpg.
+
+   * **Using the tab key to complete file paths**
+   
+   **Tab is your friend
+
+On a system famous for eschewing three-letter commands when two or even one-letter commands will do, rest assured that no seasoned POSIX user ever types out everything. In the Bash shell, the **Tab** key means autocomplete, and autocomplete never lies. For instance, to type the example **penguin.jpg** file’s location, you can start with:
+
+$ ~/Pi
+
+and then press the **Tab** key. As long as there is only one item starting with Pi, **the folder Pictures autocompletes for you.
+      
+      
+   * **Using up and down arrow for history**
+   
+   This command helps us to navigate through our history of commands which had been run previously.
+   
+For more Explanation of file path and navigation through files please check out [This link](/https://opensource.com/article/19/8/understanding-file-paths-linux)   
+   
+   
+  
