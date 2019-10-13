@@ -1,4 +1,4 @@
-#
+# Terminal Tutorial
 * **What is Terminal?**
 
 Terminal is a utility that allows you to interact with your Mac through the command line. Linux operating systems include similar tools, since both Linux and macOS are Unix-like OSes. The command line interface (CLI), or the language that you type into Terminal to interact with your Mac, is called **bash**. Everything we discuss below is a bash command.
