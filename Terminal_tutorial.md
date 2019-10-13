@@ -21,6 +21,6 @@ Those are just a few of the reasons that the Terminal is still a useful tool tod
 
 * Open **Terminal** 
 Terminal is located in your **Applications** folder within a subfolder called **Utilities**. If you cannot find it, activate Spotlight search by pressing **Command-Spacebar** and search for **Terminal**. Once you have it open, you should see something which looks like this:
-![Command Prompt](/Terminal.png)
+![Command Prompt](/images/Terminal.png)
 
  
