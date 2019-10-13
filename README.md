@@ -4,10 +4,10 @@ This project helps one to understand how to use **Terminal, Git, Docker** and ho
 # So let's get started and master all these tools!
 
 * [Terminal Tutorial](/Terminal_tutorial.md)
-* Git Tutorial
-* Docker Tutorial 
-* Automation
-* Automating a project by using Docker
+* [Git Tutorial](/Git_tutorial.md)
+* [Docker Tutorial](/Docker_tutorial.md) 
+* [Automation](/Automation.md)
+* [Automating a project by using Docker]
  
 
 
