@@ -125,6 +125,11 @@ There are two primary ways people collaborate on GitHub:
 
 * Shared repository
 * [Fork](https://help.github.com/en/articles/about-forks) and [pull](https://help.github.com/en/articles/about-pull-requests)
+
+
 With a shared repository, individuals and teams are explicitly designated as contributors with read, write, or administrator access. This simple permission structure, combined with features like protected branches and Marketplace, helps teams progress quickly when they adopt GitHub.
 
 For an open source project, or for projects to which anyone can contribute, managing individual permissions can be challenging, but a fork and pull model allows anyone who can view the project to contribute. A fork is a copy of a project under an developer’s personal account. Every developer has full control of their fork and is free to implement a fix or new feature. Work completed in forks is either kept separate, or is surfaced back to the original project via a pull request. There, maintainers can review the suggested changes before they’re merged. See the **[Forking Projects Guide](https://help.github.com/en/articles/about-pull-requests)** for more information.
+
+
+For more reference Please visit the following [link!](https://www.edureka.co/blog/git-tutorial/) and watch this **[video](https://www.youtube.com/watch?v=SWYqp7iY_Tc)** for an interactive version of explanation of git and git work flow.
