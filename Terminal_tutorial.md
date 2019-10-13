@@ -30,4 +30,52 @@ Here is a list of some of the basic commands that you'll need to know in order t
     * **ls** 
     
     lists all of the contents in the current directory. This command comes in handy if you don't want to use the Finder to browse files—you can simply list them using this command in your Terminal.
- 
+    
+    * **cd**
+    
+    **cd (directory name)** this command is used to change directories. If you write cd alone, you will move out of the current directory. After using ls (to see the directories), you can write the name of the directory you want to enter.
+    
+    * **mkdir** 
+    
+    this command Creates new folders in an instant with this command.
+    **Example:** mkdir /Users/jdoe/Desktop/cool_stuff
+    
+    * **cp**
+    **cp stands for copy.** This command is used to copy files or group of files or directory. It creates an exact image of a file on a disk with different file name. cp command require at least two filenames in its arguments.
+    
+     **For Example:**
+     cp [OPTION] Source Destination
+     cp [OPTION] Source Directory
+     cp [OPTION] Source-1 Source-2 Source-3 Source-n Directory
+
+     First and second syntax is used to copy Source file to Destination file or Directory.
+     Third syntax is used to copy multiple Sources(files) to Directory.
+    
+    
+    * **pwd**
+    
+    The basic usage, as is usually the case, is very easy. All you have to do is to run the 'pwd' command without any options, and you'll get the full path to the **current working directory in output.
+    
+    * **mv**
+    
+    this command helps us to quickly **move a file or folder into another folder using mv**. It works by simply changing the name of the path.
+
+    The syntax is mv <old file path> <new file path>.
+
+    **For example:**, mv /Users/jdoe/Documents/file1 /Users/jdoe/Desktop/file1 will move file1 from jdoe’s Documents to his Desktop.
+    
+    * **rm**
+    
+    This command will delete, immediately and without prejudice, any file you put in its path. Obviously, use it with extreme             caution. Unlike clicking **Empty Trash, rm** will not ask if you’re sure. It assumes you know what you’re doing.
+
+     One thing to note about **rm** is that by default, it will only delete files, not folders. To delete folders, you must use the **-R** option, which stands for **recursive**.
+
+     **Example**: rm -R /Users/jdoe/Desktop/cool_stuff
+    
+    * **history**
+    
+    All of our services are currently running on Linux. In Linux, there is a very useful command to show you all of the last commands that have been recently used. The command is simply called history, but can also be accessed by looking at your .bash_history in your home folder.
+    
+    
+    
+    
