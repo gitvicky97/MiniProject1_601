@@ -78,7 +78,7 @@ Here is a list of some of the basic commands that you'll need to know in order t
     All of our services are currently running on Linux. In Linux, there is a very useful command to show you all of the last commands that have been recently used. The command is simply called history, but can also be accessed by looking at your .bash_history in your home folder.
     
     
-    Please check out the following interactive [Video](https://www.youtube.com/watch?v=5XgBd6rjuDQ) to understand how Terminal works! 
+    Please check out the following interactive **[Video](https://www.youtube.com/watch?v=5XgBd6rjuDQ)** to understand how Terminal works! 
 
 #    
 
@@ -105,7 +105,7 @@ and then press the **Tab** key. As long as there is only one item starting with 
    
    This command helps us to navigate through our history of commands which had been run previously.
    
-For more Explanation of file path and navigation through files please check out [This link!](https://opensource.com/article/19/8/understanding-file-paths-linux)   
+For more Explanation of file path and navigation through files please check out **[This link!](https://opensource.com/article/19/8/understanding-file-paths-linux)**   
    
    
 # Text editor Through Terminal  
@@ -135,13 +135,13 @@ To work on VI editor, you need to understand its operation modes. They can be di
    
    * **Insert Mode**
    
-   1. This mode is for inserting text in the file.
-   2. You can switch to the Insert mode from the command mode  **by pressing 'i' on the keyboard**
-   3. Once you are in Insert mode, any key would be taken as an input for the file on which you are currently working.
-   4. To return to the command mode and save the changes you have made you need to press the Esc key
+   - This mode is for inserting text in the file.
+   - You can switch to the Insert mode from the command mode  **by pressing 'i' on the keyboard**
+   - Once you are in Insert mode, any key would be taken as an input for the file on which you are currently working.
+   - To return to the command mode and save the changes you have made you need to press the Esc key
    
          
-To completely understand how to work with **vi text editor** Please go to the following [link!](https://www.guru99.com/the-vi-editor.html)
+To completely understand how to work with **vi text editor** Please go to the following **[link!](https://www.guru99.com/the-vi-editor.html)**
 For Interactive learning please watch the following **[Video](https://www.youtube.com/watch?v=pU2k776i2Zw&feature=youtu.be)** to understand and get gist of vi text editor.
 
 
