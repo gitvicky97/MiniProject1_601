@@ -132,8 +132,6 @@ To work on VI editor, you need to understand its operation modes. They can be di
    3. This mode also saves the changes you have made to the file
    4. **Commands are case sensitive.** You should use the right letter case.
    
-
-   
    
    * **Insert Mode**
    
@@ -143,8 +141,8 @@ To work on VI editor, you need to understand its operation modes. They can be di
    4. To return to the command mode and save the changes you have made you need to press the Esc key
    
          
-To completely understand how to work with **vi text editor** Please go to the following **[link!]**(https://www.guru99.com/the-vi-editor.html)
-For Interactive learning please watch the following **[Video]**(https://www.youtube.com/watch?v=pU2k776i2Zw&feature=youtu.be) to understand and get gist of vi text editor.
+To completely understand how to work with **vi text editor** Please go to the following [link!](https://www.guru99.com/the-vi-editor.html)
+For Interactive learning please watch the following **[Video](https://www.youtube.com/watch?v=pU2k776i2Zw&feature=youtu.be)** to understand and get gist of vi text editor.
 
 
 
