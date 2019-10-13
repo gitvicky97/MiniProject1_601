@@ -27,6 +27,7 @@ Terminal is located in your **Applications** folder within a subfolder called **
 Here is a list of some of the basic commands that you'll need to know in order to use the terminal effectively. This is a handy cheat sheet for the most important and most commonly used commands.
 
 * **File Management**
-    * ls 
+    * **ls** 
+    
     lists all of the contents in the current directory. This command comes in handy if you don't want to use the Finder to browse files—you can simply list them using this command in your Terminal.
  
