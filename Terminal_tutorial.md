@@ -100,7 +100,7 @@ and then press the **Tab** key. As long as there is only one item starting with 
    
    This command helps us to navigate through our history of commands which had been run previously.
    
-For more Explanation of file path and navigation through files please check out [This link](/https://opensource.com/article/19/8/understanding-file-paths-linux)   
+For more Explanation of file path and navigation through files please check out [This link](https://opensource.com/article/19/8/understanding-file-paths-linux)   
    
    
   
