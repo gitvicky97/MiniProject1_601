@@ -105,3 +105,26 @@ The GitHub flow has six steps, each with distinct benefits when implemented:
 5. **Merge:** Upon clicking merge, GitHub automatically performs the equivalent of a local ‘git merge’ operation. GitHub also keeps the entire branch development history on the merged pull request.
 
 6. **Deploy:** Teams can choose the best release cycles or incorporate continuous integration tools and operate with the assurance that code on the deployment branch has gone through a robust workflow.
+
+# Learn more about the GitHub flow
+
+Developers can find more information about the GitHub flow in the resources provided below.
+
+* [Interactive guide](https://guides.github.com/introduction/flow/)
+* [GitHub Flow video](https://www.youtube.com/watch?v=47E-jcuQz5c&index=1&list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4)
+
+
+# GitHub and the command line
+
+For developers new to the command line, the GitHub Training team has put together a series of **[tutorials](https://help.github.com/en/articles/git-and-github-learning-resources)** on Git commands to guide the way.
+
+
+# Models for collaborative development
+
+There are two primary ways people collaborate on GitHub:
+
+* Shared repository
+* [Fork](https://help.github.com/en/articles/about-forks) and [pull](https://help.github.com/en/articles/about-pull-requests)
+With a shared repository, individuals and teams are explicitly designated as contributors with read, write, or administrator access. This simple permission structure, combined with features like protected branches and Marketplace, helps teams progress quickly when they adopt GitHub.
+
+For an open source project, or for projects to which anyone can contribute, managing individual permissions can be challenging, but a fork and pull model allows anyone who can view the project to contribute. A fork is a copy of a project under an developer’s personal account. Every developer has full control of their fork and is free to implement a fix or new feature. Work completed in forks is either kept separate, or is surfaced back to the original project via a pull request. There, maintainers can review the suggested changes before they’re merged. See the **[Forking Projects Guide](https://help.github.com/en/articles/about-pull-requests)** for more information.
