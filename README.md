@@ -3,7 +3,7 @@ This project helps one to understand how to use **Terminal, Git, Docker** and ho
 
 # So let's get started and master all these tools!
 
-* ![Terminal Tutorial](Terminal_Tutorial.md)
+* ![Terminal Tutorial](/Terminal_Tutorial.md)
 * Git Tutorial
 * Docker Tutorial 
 * Automation
