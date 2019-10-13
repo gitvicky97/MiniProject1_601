@@ -41,6 +41,7 @@ Here is a list of some of the basic commands that you'll need to know in order t
     **Example:** mkdir /Users/jdoe/Desktop/cool_stuff
     
     * **cp**
+    
     **cp stands for copy.** This command is used to copy files or group of files or directory. It creates an exact image of a file on a disk with different file name. cp command require at least two filenames in its arguments.
     
      **For Example:**
