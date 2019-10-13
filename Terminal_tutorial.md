@@ -108,6 +108,41 @@ and then press the **Tab** key. As long as there is only one item starting with 
 For more Explanation of file path and navigation through files please check out [This link!](https://opensource.com/article/19/8/understanding-file-paths-linux)   
    
    
-# Text editor Through Terminal   
+# Text editor Through Terminal  
+
+* **What is the VI editor?**
+
+The VI editor is the most popular and classic text editor in the Linux family. Below, are some reasons which make it a widely used editor –
+
+   * It is available in almost all Linux Distributions
+   * It works the same across different platforms and Distributions
+   * It is user-friendly. Hence, millions of Linux users love it and use it for their editing needs
+
+Nowadays, there are advanced versions of the vi editor available, and the most popular one is VIM which is Vi Improved. Some of the other ones are Elvis, Nvi, Nano, and Vile. It is wise to learn vi because it is feature-rich and offers endless possibilities to edit a file.
+
+To work on VI editor, you need to understand its operation modes. They can be divided into two main parts.
+
+1. **Command Mode**
+2. **Insert Mode**
+
+   * **Command Mode**
    
-  
+   1. The vi editor opens in this mode, and it only **understands commands**
+   2. In this mode, you can, **move the cursor and cut, copy, paste the text**
+   3. This mode also saves the changes you have made to the file
+   4. **Commands are case sensitive.** You should use the right letter case.
+   
+
+   * **Insert Mode**
+   
+   1. This mode is for inserting text in the file.
+   2. You can switch to the Insert mode from the command mode  **by pressing 'i' on the keyboard**
+   3. Once you are in Insert mode, any key would be taken as an input for the file on which you are currently working.
+   4. To return to the command mode and save the changes you have made you need to press the Esc key
+   
+         
+To completely understand how to work with **vi text editor** Please go to the following [link!](https://www.guru99.com/the-vi-editor.html)
+For Interactive learning please watch the following [Video](https://www.youtube.com/watch?v=pU2k776i2Zw&feature=youtu.be) to understand and get gist of vi text editor.
+
+
+
