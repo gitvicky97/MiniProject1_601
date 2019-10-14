@@ -7,7 +7,7 @@ This project helps one to understand how to use **Terminal, Git, Docker** and ho
 * [Git Tutorial](/Git_tutorial.md)
 * [Docker Tutorial](/Docker_tutorial.md) 
 * [Automation](/Automation.md)
-* [Automating a project by using Docker]
+
  
 
 
