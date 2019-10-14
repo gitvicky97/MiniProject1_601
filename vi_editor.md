@@ -1,19 +1,35 @@
-# A Command Line Editor
+# **Vi Text Editor**
 
-Vi is a command line text editor. As you would be quite aware now, the command line is quite a different environment to your GUI. It's a single window with text input and output only. Vi has been designed to work within these limitations and many would argue, is actually quite powerful as a result. Vi is intended as a plain text editor (similar to Notepad on Windows, or Textedit on Mac) as opposed to a word processing suite such as Word or Pages. It does, however have a lot more power compared to Notepad or Textedit.
+There are many ways to edit files in Unix. Editing files using the screen-oriented text editor **vi** is one of the best ways. This editor enables you to edit lines in context with other lines in the file.
 
-As a result you have to ditch the mouse. Everything in Vi is done via the keyboard.
+An improved version of the vi editor which is called the **VIM** has also been made available now. Here, VIM stands for **Vi IM** proved.
 
-There are two modes in Vi. **Insert** (or Input) mode and **Edit** mode. In input mode you may input or enter content into the file. In edit mode you can move around the file, perform actions such as deleting, copying, search and replace, saving etc. A common mistake is to start entering commands without first going back into edit mode or to start typing input without first going into insert mode. If you do either of these it is generally easy to recover so don't worry too much.
+vi is generally considered the de facto standard in Unix editors because −
 
-When we run vi we normally issue it with a single command line argument which is the file you would like to edit.
+    * It's usually available on all the flavors of Unix system.
 
-If you forget to specify a file then there is a way to open a file within vi but it is easiest to just quit vi and have another go. Also remember that when we specify the file it can be with either an absolute or relative path.
+    * Its implementations are very similar across the board.
 
-Let's dive in and get started. It's going to be hard for me to demonstrate a lot of this so instead I'll list what I want you to type and you'll have to give it a go and see what happens.
+    * It requires very few resources.
 
-First off let's move into your directory you created in the section on file manipulation. We're going to create a few files and this will keep them out of the way of your normal stuff.
+    * It is more user-friendly than other editors such as the **ed** or the **ex**.
+
+You can use the **vi** editor to edit an existing file or to create a new file from scratch. You can also use this editor to just read a text file.  
+
+# Operation modes
+While working with the vi editor, we usually come across the following two modes −
+
+  * **Command mode:**
+    This mode enables you to perform administrative tasks such as saving the files, executing the commands, moving the cursor, cutting (yanking) and pasting the lines or words, as well as finding and replacing. In this mode, whatever you type is interpreted as a command.
+
+  * **Insert mode:**  
+    This mode enables you to insert text into the file. Everything that's typed in this mode is interpreted as input and placed in the file.
+
+vi always starts in the **command mode.** To enter text, you must be in the insert mode for which simply type i. To come out of the insert mode, press the **Esc** key, which will take you back to the command mode.
+
+**Hint** − If you are not sure which mode you are in, press the Esc key twice; this will take you to the command mode. You open a file using the vi editor. Start by typing some characters and then come to the command mode to understand the difference.
+
+# Starting The Vi editor
 
 
-Now we'll edit our first file.
 
