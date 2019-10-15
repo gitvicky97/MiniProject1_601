@@ -98,10 +98,6 @@ There are many other ways to move within a file in vi. Remember that you must be
 
     Moves a paragraph forward
 
-*    [[
-
-    Moves a section back
-
 *     ]]
   
     Moves a section forward
