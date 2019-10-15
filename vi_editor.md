@@ -6,13 +6,13 @@ An improved version of the vi editor which is called the **VIM** has also been m
 
 vi is generally considered the de facto standard in Unix editors because −
 
-    * It's usually available on all the flavors of Unix system.
+   * It's usually available on all the flavors of Unix system.
 
-    * Its implementations are very similar across the board.
+   * Its implementations are very similar across the board.
 
-    * It requires very few resources.
+   * It requires very few resources.
 
-    * It is more user-friendly than other editors such as the **ed** or the **ex**.
+   * It is more user-friendly than other editors such as the **ed** or the **ex**.
 
 You can use the **vi** editor to edit an existing file or to create a new file from scratch. You can also use this editor to just read a text file.  
 
