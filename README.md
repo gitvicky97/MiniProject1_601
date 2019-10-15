@@ -20,20 +20,20 @@ project must include an explanation of how the usage of Git, Docker, automated t
 
 * [Terminal Tutorial](/Terminal_tutorial.md)
  
-  A Terminal is an interface to the underlying operating system via a shell, usually bash. It is a command line. Back in the day, a Terminal was a screen+keyboard that was connected to a server.
+      A Terminal is an interface to the underlying operating system via a shell, usually bash. It is a command line. Back in the day, a Terminal was a screen+keyboard that was connected to a server.
 
 
 * [vi editor](/vi_editor.md)
   
-  The default editor that comes with the UNIX operating system is called vi (visual editor). Using vi editor, we can edit an existing file or create a new file from scratch. we can also use this editor to just read a text file.
+      The default editor that comes with the UNIX operating system is called vi (visual editor). Using vi editor, we can edit an existing file or create a new file from scratch. we can also use this editor to just read a text file.
  
 * [Git Tutorial](/Git_tutorial.md)
  
- The purpose of Git is to manage a project, or a set of files, as they change over time. Git stores this information in a data structure called a repository. A git repository contains, among other things, the following: A set of commit objects.
+      The purpose of Git is to manage a project, or a set of files, as they change over time. Git stores this information in a data structure called a repository. A git repository contains, among other things, the following: A set of commit objects.
 
 * [Docker Tutorial](/Docker_tutorial.md)
   
-  Docker is basically a container engine which uses the Linux Kernel features like namespaces and control groups to create containers on top of an operating system and automates application deployment on the container. Docker uses Copy-on-write union file system for its backend storage.
+      Docker is basically a container engine which uses the Linux Kernel features like namespaces and control groups to create containers on top of an operating system and automates application deployment on the container. Docker uses Copy-on-write union file system for its backend storage.
 
 * [Automation](/Automation.md)
 
