@@ -31,5 +31,130 @@ vi always starts in the **command mode.** To enter text, you must be in the inse
 
 # Starting The Vi editor
 
+Following is an example to create a new file testfile if it already does not exist in the current working directory −
+
+![Testfile image](/images/testfile.png)
+
+- $vi testfile
+
+The above command will generate the following output-
+
+![vi editor](/images/editor.png)
+
+You will notice a **tilde (~)** on each line following the cursor. A tilde represents an unused line. If a line does not begin with a tilde and appears to be blank, there is a space, tab, newline, or some other non-viewable character present.
+
+You now have one open file to start working on. Before proceeding further, let us understand a few important concepts.
 
 
+# Getting out of vi
+
+The command to quit out of vi is **:q**. Once in the command mode, type colon, and 'q', followed by return. If your file has been modified in any way, the editor will warn you of this, and not let you quit. To ignore this message, the command to quit out of vi without saving is **:q!**. This lets you exit vi without saving any of the changes.
+
+The command to save the contents of the editor is **:w**. You can combine the above command with the quit command, or use **:wq** and return.
+
+The easiest way to **save your changes and exit vi** is with the ZZ command. When you are in the command mode, type **ZZ**. The **ZZ** command works the same way as the :**wq** command.
+
+If you want to specify/state any particular name for the file, you can do so by specifying it after the **:w**. For example, if you wanted to save the file you were working on as another filename called **filename2**, you would type **:w filename2** and return.
+
+# Commands
+
+To move around within a file without affecting your text, you must be in the command mode (press Esc twice). The following table lists out a few commands you can use to move around one character at a time −
+
+There are many other ways to move within a file in vi. Remember that you must be in the command mode **(press Esc twice).** The following table lists out a few commands to move around the file −
+
+1	  0 or |
+    Positions the cursor at the beginning of a line
+
+2	  $
+    Positions the cursor at the end of a line
+
+3	  w
+    Positions the cursor to the next word
+
+4	  b
+    Positions the cursor to the previous word
+
+5	  (
+    Positions the cursor to the beginning of the current sentence
+
+6	  )
+    Positions the cursor to the beginning of the next sentence
+
+7	  E
+    Moves to the end of the blank delimited word
+
+8	  {
+    Moves a paragraph back
+
+9	  }
+    Moves a paragraph forward
+
+10	[[
+    Moves a section back
+
+11	]]
+    Moves a section forward
+
+12	n|
+    Moves to the column n in the current line
+
+13	1G
+    Moves to the first line of the file
+
+14	G
+    Moves to the last line of the file
+
+15	nG
+    Moves to the nth line of the file
+
+16	:n
+    Moves to the nth line of the file
+
+17	fc
+    Moves forward to c
+
+18	Fc
+    Moves back to c
+
+19	H
+    Moves to the top of the screen
+
+20	nH
+    Moves to the nth line from the top of the screen
+
+21	M
+    Moves to the middle of the screen
+
+22	L
+    Move to the bottom of the screen
+
+23	nL
+    Moves to the nth line from the bottom of the screen
+
+24	:x
+    Colon followed by a number would position the cursor on the line number represented by x
+
+# Running Commands 
+
+The vi has the capability to run commands from within the editor. To run a command, you only need to go to the command mode and type :! command.
+
+For example, if you want to check whether a file exists before you try to save your file with that filename, you can type **:! ls** and you will see the output of **ls** on the screen.
+
+You can press any key (or the command's escape sequence) to return to your vi session. 
+
+
+# Important points to notice
+
+The following points will add to your success with vi −
+
+  * You must be in command mode to use the      commands. (Press Esc twice at any time to ensure that you are in command mode.)
+
+  * You must be careful with the commands. These are case-sensitive.
+
+  * You must be in insert mode to enter text.
+
+
+
+For more information on how to use vi editor please visit the following [link!](https://www.tutorialspoint.com/unix/unix-vi-editor.htm) and watch this interactive [video](https://www.youtube.com/watch?v=zxfccHcl1Ns) for better understanding and live examples. 
+
+    
