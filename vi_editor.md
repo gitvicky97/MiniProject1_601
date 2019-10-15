@@ -63,6 +63,7 @@ To move around within a file without affecting your text, you must be in the com
 There are many other ways to move within a file in vi. Remember that you must be in the command mode **(press Esc twice).** The following table lists out a few commands to move around the file −
 
 1	  0 or |
+
     Positions the cursor at the beginning of a line
 
 2	  $
