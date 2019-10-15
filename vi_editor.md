@@ -98,63 +98,63 @@ There are many other ways to move within a file in vi. Remember that you must be
 
     Moves a paragraph forward
 
-*	  [[
+*   [[
 
     Moves a section back
 
-*   ]]
+*     ]]
   
     Moves a section forward
 
-*   n|
+*     n|
     
     Moves to the column n in the current line
 
-*   1G
+*     1G
     
     Moves to the first line of the file
 
-* 	G
+* 	  G
     
     Moves to the last line of the file
 
-* 	nG
+* 	  nG
     
     Moves to the nth line of the file
 
-* 	:n
+* 	  :n
     
     Moves to the nth line of the file
 
-*   fc
+*     fc
     
     Moves forward to c
 
-* 	Fc
+* 	  Fc
     
     Moves back to c
 
-*  	H
+*  	  H
     
     Moves to the top of the screen
 
-* 	nH
+* 	  nH
     
     Moves to the nth line from the top of the screen
 
-* 	M
+* 	  M
     
     Moves to the middle of the screen
 
-* 	L
+* 	  L
     
     Move to the bottom of the screen
 
-* 	nL
+* 	  nL
     
     Moves to the nth line from the bottom of the screen
 
-* 	:x
+* 	  :x
     
     Colon followed by a number would position the cursor on the line number represented by x
 
