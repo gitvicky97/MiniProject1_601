@@ -102,13 +102,13 @@ There are many other ways to move within a file in vi. Remember that you must be
 
     Moves a section back
 
-* 	]]
+* 	 ]]
   
-    Moves a section forward
+     Moves a section forward
 
-*    n|
+*   n|
     
-   Moves to the column n in the current line
+    Moves to the column n in the current line
 
 *   1G
     
