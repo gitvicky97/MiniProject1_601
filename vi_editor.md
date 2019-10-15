@@ -62,77 +62,100 @@ To move around within a file without affecting your text, you must be in the com
 
 There are many other ways to move within a file in vi. Remember that you must be in the command mode **(press Esc twice).** The following table lists out a few commands to move around the file −
 
-1	  0 or |
+*	  0 or |
 
     Positions the cursor at the beginning of a line
 
-2	  $
+*	  $
+
     Positions the cursor at the end of a line
 
-3	  w
+*	  w
+
     Positions the cursor to the next word
 
-4	  b
+*	  b
+
     Positions the cursor to the previous word
 
-5	  (
+*	  (
+
     Positions the cursor to the beginning of the current sentence
 
-6	  )
+*	  )
+
     Positions the cursor to the beginning of the next sentence
 
-7	  E
+*	  E
+
     Moves to the end of the blank delimited word
 
-8	  {
+*	  {
+
     Moves a paragraph back
 
-9	  }
+*	  }
+
     Moves a paragraph forward
 
-10	[[
+*	  [[
+
     Moves a section back
 
-11	]]
+* 	]]
+  
     Moves a section forward
 
-12	n|
-    Moves to the column n in the current line
+*    n|
+    
+   Moves to the column n in the current line
 
-13	1G
+*   1G
+    
     Moves to the first line of the file
 
-14	G
+* 	G
+    
     Moves to the last line of the file
 
-15	nG
+* 	nG
+    
     Moves to the nth line of the file
 
-16	:n
+* 	:n
+    
     Moves to the nth line of the file
 
-17	fc
+*   fc
+    
     Moves forward to c
 
-18	Fc
+* 	Fc
+    
     Moves back to c
 
-19	H
+*  	H
+    
     Moves to the top of the screen
 
-20	nH
+* 	nH
+    
     Moves to the nth line from the top of the screen
 
-21	M
+* 	M
+    
     Moves to the middle of the screen
 
-22	L
+* 	L
+    
     Move to the bottom of the screen
 
-23	nL
+* 	nL
+    
     Moves to the nth line from the bottom of the screen
 
-24	:x
+* 	:x
+    
     Colon followed by a number would position the cursor on the line number represented by x
 
 # Running Commands 
