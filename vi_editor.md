@@ -102,9 +102,9 @@ There are many other ways to move within a file in vi. Remember that you must be
 
     Moves a section back
 
-* 	 ]]
+*   ]]
   
-     Moves a section forward
+    Moves a section forward
 
 *   n|
     
@@ -157,6 +157,7 @@ There are many other ways to move within a file in vi. Remember that you must be
 * 	:x
     
     Colon followed by a number would position the cursor on the line number represented by x
+
 
 # Running Commands 
 
