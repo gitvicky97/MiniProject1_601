@@ -22,7 +22,6 @@ project must include an explanation of how the usage of Git, Docker, automated t
  
   A Terminal is an interface to the underlying operating system via a shell, usually bash. It is a command line. Back in the day, a Terminal was a screen+keyboard that was connected to a server.
 
-we can do literally everything from terminal without use of exteriror tools so to master it we need to start editing text files in terminak itself.So let us learn more about **vi editor** which helps to edit our files.
 
 * [vi editor](/vi_editor.md)
   
