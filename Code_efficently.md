@@ -1,9 +1,7 @@
 # Coding Tips
 
 
-
 Want to know how to program faster so that you can deliver software faster? Sure, who doesn't? The internet is full of tips  for developers—hundreds, thousands, perhaps even millions of them. The problem is, there are far more out there than anyone has time to read, so I've boiled them down for you.
-
 
 
 ## The problem with "faster"
@@ -26,23 +24,39 @@ What every programmer wants, especially in the era of DevOps, is flow. Flow stat
 
 Flow state when pairing is like each of you having an extra brain. Unfortunately, many developer environments, such as open offices, are unfriendly to flow.
 
-Your options may be limited
+## Your options may be limited
+
 When you find something sub-optimal about your process, or yourself, the choices of how to address such constraints are limited:
 
-Ignore it.  Maybe it will get better on its own.
-Avoid it. Is it really necessary?
-Automate it. Make the machine do it.
-Delegate it. Rarely possible, this is passing the buck. But it is a legit option when available.
-Grind it down. We all have to do this from time to time (daily). Some  jobs are larger than others.
+* **Ignore it.**  Maybe it will get better on its own.
+
+* **Avoid it.** Is it really necessary?
+
+* **Automate it.** Make the machine do it.
+
+* **Delegate it.** Rarely possible, this is passing the buck. But it is a legit option when available.
+
+* **Grind it down.** We all have to do this from time to time (daily). Some  jobs are larger than others.
+
 If your typing is slower than you’d like, take a little time and level up. If your integrated development environment is confusing and unhelpful (or perhaps too helpful), try something different or simpler. If you can’t get away from it, learn more about it; you may find another way, or at least learn the limits.
 
 There are numerous ways to learn. Google is your friend, as are books, videos, blog posts, Stack Overflow questions, and, of course, other people. Some things you want to learn may be hidden; others may be larger than they appear. Balance benefit with effort and be patient with yourself. Celebrate every achievement and keep moving.
 
-Top tips for programming faster
+## Top tips for programming faster
+
 One way of grouping and looking at the tips below is by applying a few high-level categories as a way to draw interesting generalizations from the collection:
 
-Reflect. What do you want, what do you actually do; includes measuring and optimization.
-Flow. No friction from tools, processes, environment, or knowledge; seek continual challenge but not too much.
-Learn. The fundamentals: languages, tools, patterns, practices, etc., from everyone (especially those willing to teach); learn how you learn, and learn continuously.
-Teach. Teach others. Having to explain things forces simplification, and the transformation from thoughts to verbal or visual expressions produces insights.
-Express and explore. Look outside your normal duties; draw, write, blog, go to meetups, attend and give presentations, talk to Wilson the volleyball if need be.
+* **Reflect.** What do you want, what do you actually do; includes measuring and optimization.
+
+* **Flow.** No friction from tools, processes, environment, or knowledge; seek continual challenge but not too much.
+
+* **Learn.** The fundamentals: languages, tools, patterns, practices, etc., from everyone (especially those willing to teach); learn how you learn, and learn continuously.
+
+* **Teach.** Teach others. Having to explain things forces simplification, and the transformation from thoughts to verbal or visual expressions produces insights.
+
+* **Express and explore.** Look outside your normal duties; draw, write, blog, go to meetups, attend and give presentations.
+
+
+### Here are few more tips to code efficently in pyhton
+
+* Indentation
