@@ -65,7 +65,7 @@ Many a times it is required to treat more than one statements in a program as a 
 
 Before beginning of block symbol : is used. First and subsequent statements in block are written by leaving additional (but uniform) whitespace (called indent) . In order to signal end of block, the whitespace is dedented. Following example illustrates the use of indents in Python:
 
-![docker_image](/images/Indentaion.png)
+![example_image](/images/Indentation.png)
 
 
 * Don't repeat yourself!
