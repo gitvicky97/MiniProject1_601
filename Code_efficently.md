@@ -59,7 +59,7 @@ One way of grouping and looking at the tips below is by applying a few high-leve
 
 ### Here are few more tips to code efficently in pyhton
 
-* Indentation
+##  ** Indentation **
 
 Many a times it is required to treat more than one statements in a program as a block. Different programming languages use different techniques to define scope and extent of block of statements in constructs like class, function, conditional and loop. In C and C++ for example, statements inside curly brackets are treated as a block. Python uses uniform indentation to mark block of statements.
 
@@ -68,14 +68,14 @@ Before beginning of block symbol : is used. First and subsequent statements in b
 ![example_image](/images/Indentation.png)
 
 
-* Don't repeat yourself!
+##  ** Don't repeat yourself! **
 
 OF ALL THE PRINCIPLES OF PROGRAMMING, **Don’t Repeat Yourself (DRY)** is perhaps one of the most fundamental. The principle was formulated by Andy Hunt and Dave Thomas in The Pragmatic Programmer, and underlies many other well-known software development best practices and design patterns. The developer who learns to recognize duplication, and understands how to eliminate it through appropriate practice and proper abstraction, can produce much cleaner code than one who continuously infects the application with unnecessary repetition.
 
 **Duplication Is Waste**Every line of code that goes into an application must be maintained, and is a potential source of future bugs. Duplication needlessly bloats the codebase, resulting in more opportunities for bugs and adding accidental complexity to the system. The bloat that duplication adds to the system also makes it more difficult for developers working with the system to fully understand the entire system, or to be certain that changes made in one location do not also need to be made in other places that duplicate the logic they are working on. DRY requires that “every piece of knowledge must have a single, unambiguous, authoritative representation within a system.”
 
 
-* Class
+##  ** Class **
 
 
 Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by its class) for modifying its state.
@@ -85,18 +85,73 @@ Compared with other programming languages, Python’s class mechanism adds class
 In C++ terminology, normally class members (including the data members) are public (except see below Private Variables), and all member functions are virtual. As in Modula-3, there are no shorthands for referencing the object’s members from its methods: the method function is declared with an explicit first argument representing the object, which is provided implicitly by the call. As in Smalltalk, classes themselves are objects. This provides semantics for importing and renaming. Unlike C++ and Modula-3, built-in types can be used as base classes for extension by the user. Also, like in C++, most built-in operators with special syntax (arithmetic operators, subscripting etc.) can be redefined for class instances.
 
 
-* Object
+## ** Object **
 
 Objects have individuality, and multiple names (in multiple scopes) can be bound to the same object. This is known as aliasing in other languages. This is usually not appreciated on a first glance at Python, and can be safely ignored when dealing with immutable basic types (numbers, strings, tuples). However, aliasing has a possibly surprising effect on the semantics of Python code involving mutable objects such as lists, dictionaries, and most other types. This is usually used to the benefit of the program, since aliases behave like pointers in some respects. For example, passing an object is cheap since only a pointer is passed by the implementation; and if a function modifies an object passed as an argument, the caller will see the change — this eliminates the need for two different argument passing mechanisms as in Pascal.
 
-* Static
+##  ** Static **
 
 Static methods in Python are extremely similar to python class level methods, the difference being that a static method is bound to a class rather than the objects for that class.
 
 This means that a static method can be called without an object for that class. This also means that static methods cannot modify the state of an object as they are not bound to it. Let’s see how we can create static methods in Python.
 
-* Attribute 
+##  ** Attribute **
 
 Attributes may be read-only or writable. In the latter case, assignment to attributes is possible. Module attributes are writable: you can write modname.the_answer = 42. Writable attributes may also be deleted with the del statement. For example, del modname.the_answer will remove the attribute the_answer from the object named by modname.
 
 Namespaces are created at different moments and have different lifetimes. The namespace containing the built-in names is created when the Python interpreter starts up, and is never deleted. The global namespace for a module is created when the module definition is read in; normally, module namespaces also last until the interpreter quits. The statements executed by the top-level invocation of the interpreter, either read from a script file or interactively, are considered part of a module called __main__, so they have their own global namespace. (The built-in names actually also live in a module; this is called __builtin__.)
+
+
+##  **Method -**
+A method in python is somewhat similar to a function, except it is associated with object/classes. Methods in python are very similar to functions except for two major differences.
+
+The method is implicitly used for an object for which it is called.
+The method is accessible to data that is contained within the class
+
+##  **Exception**
+Errors detected during execution are called exceptions and are not unconditionally fatal. Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it.
+
+
+##  **Unit Test -**
+The unittest unit testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, and independence of the tests from the reporting framework.
+
+##  **Constructor**
+Constructors are generally used for instantiating an object.The task of constructors is to initialize(assign values) to the data members of the class when an object of class is created.In Python the __init__() method is called the constructor and is always called when an object is created.
+
+**default constructor :** The default constructor is simple constructor which doesn’t accept any arguments.It’s definition has only one argument which is a reference to the instance being constructed.
+
+**parameterized constructor :** constructor with parameters is known as parameterized constructor.The parameterized constructor take its first argument as a reference to the instance being constructed known as self and the rest of the arguments are provided by the programmer.
+
+##  **Factory -**
+Factory Method is a creational design pattern used to create concrete implementations of a common interface.
+It separates the process of creating an object from the code that depends on the interface of the object.
+For example, an application requires an object with a specific interface to perform its tasks. The concrete implementation of the interface is identified by some parameter.
+
+##  **Decorator -**
+A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
+
+Decorators are very powerful and useful tool in Python since it allows programmers to modify the behavior of function or class. Decorators allow us to wrap another function in order to extend the behavior of wrapped function, without permanently modifying it.
+
+In Decorators, functions are taken as the argument into another function and then called inside the wrapper function.
+
+##  **Extend Class -**
+Parent classes are normally supersets of something. For example, you might create a parent class named Car and then create child classes of various car types around it.
+
+In this case, you build a parent class named Animal and use it to define a child class named Chicken. Of course, you can easily add other child classes after you have Animal in place, such as a Gorilla class. However, for this example, you build just the one parent and one child class.
+
+
+##  **CSV Files -**
+CSV is a simple file format used to store tabular data, such as a spreadsheet or database.
+
+##  **Reading Files -**
+
+Rather than deal with a list of individual String elements, you can read CSV data directly into a dictionary.
+
+
+## References:
+1. https://www.geeksforgeeks.org/statement-indentation-and-comment-in-python/
+2. https://docs.python.org/3/library/unittest.html
+3. https://www.python-course.eu
+4. https://zapier.com/blog/dont-repeat-yourself/
+5. https://www.w3schools.com/python/python_file_open.asp
+6. https://www.dummies.com/programming/python/how-to-extend-classes-to-make-new-classes-in-python/
